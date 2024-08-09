@@ -1,0 +1,91 @@
+body {
+  background-color: #141414;
+  display: grid;
+  place-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+#main {
+  height: auto;
+  width: 25rem;
+  background-color: #1f1f1f;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+
+#image {
+  display: grid;
+  place-items: center;
+}
+
+#image img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+p {
+  font-size: 14px;
+}
+
+#name {
+  color: white;
+  margin-bottom: 0;
+}
+
+#place {
+  color: #97a762;
+  font-weight: 700;
+}
+
+#hobby {
+  color: white;
+}
+
+.socials {
+  width: 23rem;
+  height: 3rem;
+  background-color: #333333;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  margin-top: 15px;
+}
+
+.socials p {
+  color: white;
+  font-weight: 600;
+}
+
+.socials:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+  #main {
+    width: 100%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  #image img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .socials {
+    height: 2.5rem;
+  }
+}
